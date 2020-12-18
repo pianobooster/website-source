@@ -17,7 +17,7 @@ is that **PianoBooster** listens and follows what you are playing on a MIDI pian
 
 **Welcome to the brand new Piano Booster website.**
 
-For the first time in 11 years a new version of Piano Boster is
+A new version of Piano Boster is now
 [available with exectuables](download.html) for Windows, macOS and Linux (AppImage).
 Also please see the [user forum](http://piano-booster.2625608.n2.nabble.com/Piano-Booster-Users-f1591936.html) for more details of this news.
 

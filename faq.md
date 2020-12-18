@@ -17,6 +17,11 @@ First plug the MIDI keyboard into your PC, for older MIDI keyboards that do not 
 After connecting the MIDI keyboard open the Piano Booster MIDI setup menu and
 then select the MIDI input interface that matches your keyboard.
 
+## Something's wrong, I have tried uninstalling and reinstalling!
+Try deleting the config file called 'Piano Booster.ini'.
+On windows it is in `\Users\<your user name>\AppData\Roaming\PianoBooster\Piano Booster.ini`
+and Linux and macOS it is in `~/.config/PianoBooster/Piano Booster.ini`
+
 ## Will Piano Booster work with a real piano?
 No, it will only work with a MIDI piano keyboard.
 As this is technically very difficult there are no plans to add this feature.
