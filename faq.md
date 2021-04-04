@@ -10,7 +10,8 @@ The Booster Music course is also available on the Piano Booster website.
 Also many other MIDI files that work with Piano Booster can be found by searching the web.
 
 ## There is no sound, what is wrong?
-First insure that you have installed the latest version of Piano Booster that includes the integrated FluidSynth sound generator. To check this open the Piano Booster MIDI setup dialogue window and confirm there is a FluidSynth tab shown. You also need to ensure that there is a SoundFont file loaded, the recommended sound font is called `FluidR3_GM.sf2`.
+First insure that you have installed the latest version of Piano Booster that includes the integrated FluidSynth sound generator. To check this open the Piano Booster MIDI setup dialogue window and confirm there is a FluidSynth tab shown.
+You also need to ensure that there is a SoundFont file loaded, the recommended sound font is called `FluidR3_GM.sf2` and is available on the download page.
 
 ## How do I connect a MIDI piano keyboard?
 First plug the MIDI keyboard into your PC, for older MIDI keyboards that do not use USB MIDI you will need to use a MIDI adaptor.
@@ -21,6 +22,15 @@ then select the MIDI input interface that matches your keyboard.
 Try deleting the config file called 'Piano Booster.ini'.
 On windows it is in `\Users\<your user name>\AppData\Roaming\PianoBooster\Piano Booster.ini`
 and Linux and macOS it is in `~/.config/PianoBooster/Piano Booster.ini`
+
+## Does Piano Booster work with keys that light up?
+The Casio LK-265 and Yamaha EZ-220 MIDI keyboards have keys that light up indicating the next notes to play.
+PianoBooster does work with these keyboards, but you need to start pianobooster from the command line using the  `--lights` option. For example on Windows you would start PianoBooster  by typing the following in the command line window:
+
+```txt
+"\Program Files (x86)\Piano Booster-1.0.0\pianobooster.exe" --lights
+
+```
 
 ## Will Piano Booster work with a real piano?
 No, it will only work with a MIDI piano keyboard.
@@ -38,7 +48,7 @@ JACK is also required on BSD Unix. Piano Booster is not normally compiled with s
 If you don't have a version of Piano Booster that includes the integrated FluidSynth (recommended) you can start FluidSynth manually. First install the FluidSynth `fluidsynth` and the GM sound font `fluid-soundfont-gm` packages and then run the following command line:
 
 ```txt
-fluidsynth -g 1.0 -a alsa -o midi.alsa_seq.id=fs2 /usr/share/sounds/sf2/FluidR3_GM.sf2
+fluidsynth -g 1.0 -a pulseaudio -o midi.alsa_seq.id=fs2 /usr/share/sounds/sf2/FluidR3_GM.sf2
 
 ```
 An alternatively you can used TiMidity by typing the following in a terminal window:

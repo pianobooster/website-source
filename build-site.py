@@ -122,7 +122,8 @@ def run_main(argv):
     if os.environ.get('PB_GITHUB_IO') is not None:
         build_web_dir = os.environ.get('PB_GITHUB_IO')
 
-    # ZZ TBD shutil.copytree("site-files", build_web_dir, dirs_exist_ok=True)
+    print (f"Copying files to dir '{build_web_dir}'")
+
     shutil.copytree("site-files", build_web_dir, dirs_exist_ok=True)
 
 
@@ -152,7 +153,7 @@ def run_main(argv):
     create_html("screenshots", implicit_figures=True)
     create_html("faq", toc=True)
     create_html("music-info", toc=False)
-    create_html("download", toc=False)
+    create_html("download", toc=True)
     create_html("developer-info", toc=False)
 
 

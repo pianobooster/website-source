@@ -3,16 +3,12 @@ title:  'Downloads'
 pagetitle: 'PianoBooster Downloads'
 ---
 
+# Version 1.0.0 (latest stable)
+
 The **PianoBooster** executables now includes a built-in sound generator called **FluidSynth**.
 In order for this to work a General MIDI (GM) SoundFont is required.
 Since this is quite a large file its not necessarily included with the executable.
-The recommend SoundFont is called **FluidR3_GM**.
-Use the Piano Booster 'Setup/Midi Setup' menu option and then click on the FluidSynth tab and use the load button to install the SoundFont file.
-
-* [FluidR3_GM.sf2](https://github.com/pianobooster/fluid-soundfont/releases/download/v3.1/FluidR3_GM.sf2) -- 142 MB General MIDI SoundFont.
-
-
-## Version 1.0.0 (latest stable)
+See below for the recommend SoundFont.
 
 ### Windows:
 
@@ -23,21 +19,31 @@ Just download and run this setup program which also includes the recommend Sound
 
 
 ### Mac OS:
+Unfortunately executables built on one macOS version may not work on a different version and so you may need to try both of these builds:
 
-* [PianoBooster-macOS-1.0.0.dmg](https://github.com/pianobooster/PianoBooster/releases/download/v1.0.0/PianoBooster-macOS-1.0.0.dmg) -- 12.8Mb (without SoundFont)
+* [PianoBooster-macos-10.15-1.0.0.dmg](https://github.com/pianobooster/PianoBooster/releases/download/v1.0.0/PianoBooster-macos-10.15-1.0.0.dmg) -- 12.8Mb built on 10.15 Catalina (SoundFont not included)
+* [PianoBooster-macOS-1.0.0.dmg](https://github.com/pianobooster/PianoBooster/releases/download/v1.0.0/PianoBooster-macOS-1.0.0.dmg) -- 12.8Mb built on 10.11 El Capitan (SoundFont not included)
 
-The mac version does not include a sound font so you will need to download a General-MIDI SoundFont.
-See above for a suitable SoundFont.
+These mac versions does not include a General-MID sound font.
+See below for the  [recommend SoundFont](#recommend-soundfont).
 
 
 
 ### Linux AppImage (64 bit):
 
-* [PianoBooster-1.0.0-x86_64.AppImage](https://github.com/pianobooster/PianoBooster/releases/download/v1.0.0/PianoBooster-1.0.0-x86_64.AppImage) -- 8Mb (without SoundFont)
+* [PianoBooster-1.0.0-x86_64.AppImage](https://github.com/pianobooster/PianoBooster/releases/download/v1.0.0/PianoBooster-1.0.0-x86_64.AppImage) -- 8Mb (SoundFont not included
 
 For Linux users there is now no need to compile from source instead just download the PianoBooster AppImage set the executable bit and then run the AppImage.
 This version includes the built in Fluid Synth sound generator but does not include a sound font.
 Please install the `fluid-soundfont-gm` Fluid (R3) General MIDI SoundFont (GM) package before running Piano Booster.
+
+### Recommend SoundFont:
+
+The recommend SoundFont is called **FluidR3_GM**.
+Use the Piano Booster 'Setup/Midi Setup' menu option and then click on the FluidSynth tab and use the load button to install the SoundFont file.
+
+* [FluidR3_GM.sf2](https://github.com/pianobooster/fluid-soundfont/releases/download/v3.1/FluidR3_GM.sf2) -- 142 MB General MIDI SoundFont.
+
 
 
 ### MD5 sums
@@ -46,6 +52,7 @@ Please install the `fluid-soundfont-gm` Fluid (R3) General MIDI SoundFont (GM) p
 ```txt
 79daccb587ef872a37762af472de7ecf  PianoBooster-1.0.0-x86_64.AppImage
 13b4cff404073c38a40b1db4f9a64b56  PianoBoosterInstall-SF-1.0.0.exe
+0013743e1e2b7ce665cd513735c430b8  PianoBooster-macos-10.15-1.0.0.dmg
 0c42fa85cf39394c62f45937b56c32c8  PianoBooster-macOS-1.0.0.dmg
 ```
 
@@ -75,3 +82,10 @@ then select the MIDI input interface for your keyboard.
 (If you don't have a MIDI keyboard you can still try out PianoBooster using the PC keyboard, 'x' is
 middle C -- but a MIDI piano is recommend).
 
+
+# Previous releases
+
+Previous release are available here:
+
+* [https://github.com/pianobooster/PianoBooster/releases](https://github.com/pianobooster/PianoBooster/releases)
+* [https://sourceforge.net/projects/pianobooster/files/pianobooster/](https://sourceforge.net/projects/pianobooster/files/pianobooster/)
