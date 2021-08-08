@@ -8,9 +8,9 @@ The code has recently moved to this site so please update your URL to use this n
 
 ## Contributing
 
-If you wish to contribute to Piano Booster you can raise the ideas in the [develop forum](http://piano-booster.2625608.n2.nabble.com/Piano-Booster-Development-f2625691.html)
+If you wish to contribute to Piano Booster you can raise the ideas in the [develop forum](http://piano-booster.139.s1.nabble.com/Piano-Booster-Development-f2625691.html)
 and/or generate a [pull request on GitHub](https://github.com/pianobooster/PianoBooster/pulls).
-Suggetions can be raised in the [user forum](http://piano-booster.2625608.n2.nabble.com/Piano-Booster-Users-f1591936.html)
+Suggetions can be raised in the [user forum](http://piano-booster.139.s1.nabble.com/Piano-Booster-Users-f1591936.html)
 and bugs can be raised as [GitHub issues](https://github.com/pianobooster/PianoBooster/issues).
 
 ## Translations
